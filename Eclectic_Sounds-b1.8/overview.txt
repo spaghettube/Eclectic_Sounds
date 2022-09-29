@@ -1,0 +1,101 @@
+"*" = additions since the last version
+Games which have participated (or are planned to be) in the making of the pack:
+-Dying Light
+-Wii Sports
+-Mario Bros (no idea which ones)
+-Skylanders Giants
+-Pokémon
+-Bioshock series
+____________________________________________________________________________
+
+Sounds changed within this very file:
+____________________________________________________________________________
+Minecraft:
+Blocks:
+	-beacon
+	-bubble_column (travelling up and down) (volume tweaking after mono fix)*
+	-dispenser/dropper fail (because of the way mc re-uses sounds)
+	-dripstone (dripping water sound, can sound broken with the drip sounds mod, especially when raining)
+	-enchantment_table
+	-enderchest (volume tweaking after mono fix)*
+Entity:
+	-all fish ambient sounds
+	-leashknot
+	-player attack (fixed to mono)*
+Fire:
+	-ignite* (use flint and steel)
+Items:
+	-shield
+	-equip chained armor
+	-totem
+Liquids:
+	-lava
+	-water (splash)
+Mobs:
+	-blaze (shooting sound)
+	-ghast (volume tweaking after mono fix)*
+	-iron_golem (volume tweaking after mono fix)*
+	-turtle (egg hatched)
+	-warden (fixed to mono)*
+Portal:
+	-travel
+Random:
+	-anvil_use (back to stereo)*
+	-burp (volume tweaking after mono fix)*
+	-click_stereo (menu click sound) (back to stereo)*
+	-click (changes a lot of redstone equipment sounds)
+	-drink (volume tweaking after mono fix)*
+	-eat
+	-pop (pick up)
+	-fizz (burning sound)
+	-wood_click (same thing as click but wood)
+Step:
+	-snow (volume tweaking after mono fix)*
+Other:
+	-lever click
+	-player_death
+	-stonecutter select sound (because of the way mc re-uses sounds)
+
+To be worked on: something related to water?; shield breaking; try to fix dripping sounds?; fire; a to be chosen mob ambient sound (perhaps elder guardian)
+____________________________________________________________________________
+ExtraSounds: - if you see "category" in it then it most likely means I changed inventory related sounds to X item
+	-action.bow (bow pull) (added a variant, fixed to mono)*
+	-effect.add.positive
+	-effect.add.negative
+	-effect.remove.positive
+	-effect.remove.negative
+	-hotbar_scroll
+	-inventory.close
+	-inventory.open
+	-item.category.crunchy_dry (changes some food sounds, mostly vegetables)
+	-item.category.metal
+	-item.category.metal.bits
+	-item.category.paper (not replaced but added a couple sounds)
+	-item.drop
+	-item.pickup_all (pick up full a stack of items from double clicking a single one in the inventory)
+	-item.pickup.minecraft.charcoal
+	-item.pickup.minecraft.coal
+	-item.select.minecraft.diamond_sword
+	-item.select.minecraft.emerald
+	-item.select.minecraft.flint_and_steel
+	-item.select.minecraft.golden_sword
+	-item.select.minecraft.iron_bars
+	-item.select.minecraft.iron_sword
+	-item.select.minecraft.netherite_sword
+	-keyboard.type (needs to be enabled in sounds - extrasounds (the gear to the right - keyboard volume)) (back to stereo)*
+
+To be worked on: variations of item.category.metal; flint and steel
+____________________________________________________________________________
+NotifMod:
+	-mention
+	-mend
+	-message
+	-sleep
+
+To be worked on: player join/leave
+____________________________________________________________________________
+Presence Footsteps:
+	-snow (volume tweaking after mono fix)*
+	-leaves (not replaced but added a couple sounds)
+
+To be worked on: nothing on my mind yet
