@@ -1,0 +1,13 @@
+{
+  "durability.damage": {"sounds": ["notifmod:damage"]},
+  "durability.stop": {"sounds": ["notifmod:stop"]},
+  "durability.mend": {"replace": "true", "sounds": ["notifmod:tiger/mend"]},
+  "chat.message": {"replace": "true", "sounds": ["notifmod:tiger/message"]},
+  "chat.mention": {"replace": "true", "sounds": ["notifmod:tiger/mention"]},
+  "player.join": {"sounds": ["notifmod:join"]},
+  "player.leave": {"sounds": ["notifmod:leave"]},
+  "done_loading.game": {"sounds": ["notifmod:game"]},
+  "done_loading.world": {"sounds": ["notifmod:world"]},
+  "reminder.done": {"sounds": ["notifmod:reminder"]},
+  "sleep.now": {"replace": "true", "sounds": ["notifmod:tiger/sleep"]}
+}
