@@ -4,7 +4,8 @@
     "sounds": [
       "tiger/entity/player/death1",
       "tiger/entity/player/death2",
-      "tiger/entity/player/death3" ]
+      "tiger/entity/player/death3",
+      "tiger/entity/player/death4" ]
   },
   "block.snow.step": {
     "replace": true,
@@ -226,7 +227,8 @@
 	"block/bubble_column/bubble3",
 	"tiger/block/bubble_column/bubble4",
 	"tiger/block/bubble_column/bubble5",
-	"tiger/block/bubble_column/bubble6" ]
+	"tiger/block/bubble_column/bubble6",
+	"tiger/block/bubble_column/bubble7" ]
   },
   "block.bubble_column.bubble_pop": {
     "replace": true,
@@ -276,4 +278,16 @@
       "tiger/mob/ghast/scream1",
       "tiger/mob/ghast/scream2",
       "tiger/mob/ghast/scream3" ]
+  },
+  "entity.ghast.ambient": {
+    "replace": true,
+    "sounds": [
+      "tiger/mob/ghast/moan1",
+      "tiger/mob/ghast/moan2",
+      "tiger/mob/ghast/moan3" ]
+  },
+  "entity.splash_potion.break": {
+    "replace": true,
+    "sounds": [
+      "tiger/entity/splash_potion/break" ]
 }}
