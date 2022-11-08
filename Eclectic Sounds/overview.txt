@@ -1,4 +1,4 @@
-Current version: b1.11
+Current version: b1.12
 "*" = what changed since the last version
 Games which have participated (or are planned to be) in the making of the pack:
 -Dying Light
@@ -24,10 +24,10 @@ Blocks:
 	-enchantment_table
 	-enderchest
 Entity:
-	-all fish ambient sounds (added variant)*
+	-all fish ambient sounds
 	-leashknot
 	-player attack
-	-splash potion (break)*
+	-splash potion (break)
 Fire:
 	-ignite (use flint and steel)
 Items:
@@ -36,13 +36,14 @@ Items:
 	-equip chained armor
 	-totem
 Liquids:
-	-lava (fixed the lava ambient sound stopping suddenly; adjusted the volume)*
-	-water (splash)
+	-lava (lowered the volume a bit)*
+	-water (splash) (added splash variant)*
 Mobs:
 	-blaze (shooting sound)
-	-frog (added tongue variants)*
-	-ghast (ambient sounds)*
+	-frog (added tongue variants)
+	-ghast 
 	-iron_golem 
+	-slime (attack, jump and squish)*
 	-turtle (egg hatched)
 	-warden
 Portal:
@@ -56,12 +57,12 @@ Random:
 	-eat
 	-pop (pick up)
 	-fizz (burning sound)
-	-wood_click (same thing as click but wood)*
+	-wood_click (same thing as click but wood)
 Step:
 	-snow 
 Other:
 	-lever click
-	-player death (skipped these sounds on volume tweaking, tweaked them on this version; added variant)*
+	-player death
 	-stonecutter select sound (because of the way mc re-uses sounds)
 	-jumping on water
 
@@ -112,3 +113,15 @@ Fabrication:
 	-bubble pop from the bubble column (needs to be enabled on the fabrication config)
 
 To be worked on: MAYBE absorption hurt
+____________________________________________________________________________
+Auditory*:
+Block:
+	-jukebox disc in and out*
+Tools:
+	-bow pull*
+
+To be worked on: shield blocking; tool swing sounds
+____________________________________________________________________________
+Droplight (not yet):
+
+To be worked on: --

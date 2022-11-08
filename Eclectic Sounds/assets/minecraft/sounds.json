@@ -1,4 +1,5 @@
 {
+
   "entity.player.death": {
     "replace": true,
     "sounds": [
@@ -106,6 +107,7 @@
       "tiger/entity/player/attack/crit" ]
   },
   "block.bubble_column.whirlpool_inside": {
+    "//": "inside of bubble column going down",
     "replace": true,
     "sounds": [
       "tiger/block/bubble_column/whirlpool_inside1",
@@ -128,6 +130,7 @@
       "tiger/item/armor/chain3" ]
   },
   "block.pointed_dripstone.drip_water_into_cauldron": {
+    "//": "water level in the cauldron rises",
     "replace": true,
     "sounds": [
       "block/pointed_dripstone/drip_water1",
@@ -143,6 +146,7 @@
       "block/pointed_dripstone/drip_water11" ]
   },
   "block.lava.extinguish": {
+    "//": "water contacts with water",
     "replace": true,
     "sounds": [
       "tiger/liquid/lava_extinguish1",
@@ -239,12 +243,14 @@
 	}]
   },
   "entity.generic.burn": {
+    "//": "item burns",
     "replace": true,
     "sounds": [
       "tiger/item/burn1",
       "tiger/item/burn2" ]
   },
   "tiger.liquid.jump": {
+    "//": "small hops on water",
     "replace": true,
     "sounds": [
 	"tiger/liquid/jump_on_water1",
@@ -290,4 +296,39 @@
     "replace": true,
     "sounds": [
       "tiger/entity/splash_potion/break" ]
+  },
+  "entity.generic.splash": {
+    "replace": true,
+    "sounds": [
+      "tiger/liquid/splash1",
+      "tiger/liquid/splash2",
+      "tiger/liquid/splash3" ]
+  },
+  "entity.slime.jump_small": {
+    "//": "small slime jumps",
+    "replace": true,
+    "sounds": [
+      "tiger/mob/slime/small/jump1",
+      "tiger/mob/slime/small/jump2" ]
+  },
+  "entity.slime.jump": {
+    "//": "non small slime jumps",
+    "replace": true,
+    "sounds": [
+      "tiger/mob/slime/big/jump1",
+      "tiger/mob/slime/big/jump2" ]
+  },
+  "entity.slime.squish": {
+    "//": "non small slime lands",
+    "replace": true,
+    "sounds": [
+      "tiger/mob/slime/big/squish1", 
+      "tiger/mob/slime/big/squish2" ]
+  },
+  "entity.slime.squish_small": {
+    "//": "small slime lands",
+    "replace": true,
+    "sounds": [
+      "tiger/mob/slime/small/squish1",
+      "tiger/mob/slime/small/squish2" ]
 }}
