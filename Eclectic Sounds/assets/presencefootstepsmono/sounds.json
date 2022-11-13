@@ -291,7 +291,10 @@
       "presencefootstepsmono:leaves/leaves_through4",
       "presencefootstepsmono:leaves/leaves_through5",
       "presencefootstepsmono:leaves/leaves_through6",
-      "presencefootstepsmono:leaves/leaves_through7"
+      "presencefootstepsmono:leaves/leaves_through7",
+      "presencefootsteps:tiger/leaves/leaves_through8",
+      "presencefootsteps:tiger/leaves/leaves_through9",
+      "presencefootsteps:tiger/leaves/leaves_through10"
     ]
   },
   "pf_presence.lino.lino_run": {
@@ -701,7 +704,6 @@
     "sounds": [
       "presencefootstepsmono:water/water_through1",
       "presencefootstepsmono:water/water_through10",
-      "presencefootstepsmono:water/water_through11",
       "presencefootstepsmono:water/water_through2",
       "presencefootstepsmono:water/water_through3",
       "presencefootstepsmono:water/water_through4",
@@ -709,7 +711,8 @@
       "presencefootstepsmono:water/water_through6",
       "presencefootstepsmono:water/water_through7",
       "presencefootstepsmono:water/water_through8",
-      "presencefootstepsmono:water/water_through9"
+      "presencefootstepsmono:water/water_through9",
+      "presencefootstepsmono:water/water_through11"
     ]
   },
   "pf_presence.water.water_wander": {
@@ -729,7 +732,6 @@
     "sounds": [
       "presencefootstepsmono:water_stereofix/water_through1",
       "presencefootstepsmono:water_stereofix/water_through10",
-      "presencefootstepsmono:water_stereofix/water_through11",
       "presencefootstepsmono:water_stereofix/water_through2",
       "presencefootstepsmono:water_stereofix/water_through3",
       "presencefootstepsmono:water_stereofix/water_through4",
@@ -737,7 +739,8 @@
       "presencefootstepsmono:water_stereofix/water_through6",
       "presencefootstepsmono:water_stereofix/water_through7",
       "presencefootstepsmono:water_stereofix/water_through8",
-      "presencefootstepsmono:water_stereofix/water_through9"
+      "presencefootstepsmono:water_stereofix/water_through9",
+      "presencefootstepsmono:water_stereofix/water_through11"
     ]
   },
   "pf_presence.water_stereofix.water_wander": {

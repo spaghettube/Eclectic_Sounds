@@ -39,13 +39,13 @@
   "hotbar_scroll": {
     "replace": true,
     "sounds": [
-	"extrasounds:tiger/select/hotbar_scroll" ]
+	"extrasounds:tiger/other/hotbar_scroll" ]
   },
   "inventory.close": {
     "replace": true,
     "sounds": [
       {
-        "name": "extrasounds:tiger/inv_close",
+        "name": "extrasounds:tiger/other/inv_close",
         "volume": 0.45
       }
     ]
@@ -54,7 +54,7 @@
     "replace": true,
     "sounds": [
       {
-        "name": "extrasounds:tiger/inv_open",
+        "name": "extrasounds:tiger/other/inv_open",
         "volume": 0.25
       }
     ]
@@ -202,24 +202,21 @@
     ]
   },
   "item.category.gear.leather": {
-    "sounds": [
-      {
-        "name": "minecraft:item.armor.equip_leather",
-        "volume": 0.4,
+	"replace": true,
+    "sounds": [{
+        "name": "minecraft:mcdefault.armor.equip_leather",
+        "volume": 0.6,
         "pitch": 1.4,
         "type": "event"
-      }
-    ]
+   		   }]
   },
   "item.category.gear.netherite": {
-    "sounds": [
-      {
-        "name": "minecraft:item.armor.equip_netherite",
-        "volume": 0.4,
-        "pitch": 1.3,
-        "type": "event"
-      }
-    ]
+	"replace": true,
+    "sounds": [{
+	"name": "mcdefault.armor.equip_netherite",
+	"type": "event",
+	"pitch": 1.35,
+	"volume": 0.6 }]
   },
   "item.category.gear.stone": {
     "sounds": [
@@ -433,7 +430,7 @@
   "item.drop": {
     "replace": true,
     "sounds": [
-      "extrasounds:tiger/item/item_drop" ]
+      "extrasounds:tiger/item/drop" ]
   },
   "item.pickup": {
     "replace": true,
@@ -468,7 +465,7 @@
   "keyboard.type": {
     "replace": true,
     "sounds": [
-	"extrasounds:tiger/voice_sans" ]
+	"extrasounds:tiger/other/voice_sans" ]
   },
   "item.pickup.minecraft.amethyst_shard": {
     "replace": true,
@@ -631,7 +628,7 @@
   "item.pickup.minecraft.brick": {
     "replace": true,
     "sounds": [
-	"extrasounds:tiger/select/brick" ]
+	"extrasounds:tiger/pickup/brick" ]
   },
   "item.pickup.minecraft.brown_mushroom_block": {
     "replace": true,
@@ -655,7 +652,7 @@
     "replace": true,
     "sounds": [
       {
-        "name": "extrasounds:tiger/select/coal",
+        "name": "extrasounds:tiger/pickup/coal",
         "pitch": 1.5
       }
     ]
@@ -712,10 +709,7 @@
   "item.pickup.minecraft.coal": {
     "replace": true,
     "sounds": [
-      {
-        "name": "extrasounds:tiger/select/coal"
-      }
-    ]
+	"extrasounds:tiger/pickup/coal" ]
   },
   "item.pickup.minecraft.cobweb": {
     "replace": true,
@@ -838,11 +832,7 @@
   "item.pickup.minecraft.diamond": {
     "replace": true,
     "sounds": [
-      {
-        "name": "extrasounds:item.category.metal",
-        "type": "event"
-      }
-    ]
+	"extrasounds:tiger/pickup/diamond" ]
   },
   "item.pickup.minecraft.diamond_horse_armor": {
     "replace": true,
@@ -887,7 +877,7 @@
   "item.pickup.minecraft.emerald": {
     "replace": true,
     "sounds": [
-	"extrasounds:tiger/select/emerald" ]
+	"extrasounds:tiger/pickup/emerald" ]
   },
   "item.pickup.minecraft.enchanted_golden_apple": {
     "replace": true,
@@ -985,7 +975,7 @@
   "item.pickup.minecraft.flint_and_steel": {
     "replace": true,
     "sounds": [
-	"extrasounds:tiger/select/flint_and_steel" ]
+	"extrasounds:tiger/pickup/flint_and_steel" ]
   },
   "item.pickup.minecraft.ghast_tear": {
     "replace": true,
@@ -1714,10 +1704,10 @@
       }
     ]
   },
-  "item.select.minecraft.iron_bars": {
+  "item.pickup.minecraft.iron_bars": {
     "replace": true,
     "sounds": [
-	"extrasounds:tiger/select/iron_bars" ]
+	"extrasounds:tiger/pickup/iron_bars" ]
   },
   "item.select.minecraft.iron_sword": {
     "replace": true,
@@ -1750,5 +1740,14 @@
         "pitch": 1.1
       }
     ]
-  }
+  },
+  "item.pickup.elytra": {
+	"replace": true,
+    "sounds": [{
+        "name": "minecraft:mcdefault.armor.equip_leather",
+        "volume": 0.8,
+        "pitch": 1.2,
+        "type": "event"
+   		   }]
+	}
 }

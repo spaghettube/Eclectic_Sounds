@@ -107,12 +107,11 @@
     "subtitle": "subtitles.item.trident.swing"
   },
   "item.shield.raise": {
-    "sounds": [
-      "auditory:item/shield/raise1",
-      "auditory:item/shield/raise2",
-      "auditory:item/shield/raise3",
-      "auditory:item/shield/raise4"
-    ],
+	"replace": true,
+    "sounds": [{
+      "name": "auditory:tiger/item/shield/raise",
+	"volume": 3.6
+    }],
     "subtitle": "subtitles.item.shield.raise"
   },
 
@@ -130,7 +129,7 @@
   "player.item.drop": {
 	"replace": true,
     "sounds": [
-      "auditory:entity/player/drop_item"
+      "extrasounds:tiger/item/drop"
     ],
     "subtitle": "subtitles.entity.player.drop_item"
   },

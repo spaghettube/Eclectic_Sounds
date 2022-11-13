@@ -125,9 +125,9 @@
   "item.armor.equip_chain": {
     "replace": true,
     "sounds": [
-      "tiger/item/armor/chain1",
-      "tiger/item/armor/chain2",
-      "tiger/item/armor/chain3" ]
+      "tiger/item/armor/chain/equip1",
+      "tiger/item/armor/chain/equip2",
+      "tiger/item/armor/chain/equip3" ]
   },
   "block.pointed_dripstone.drip_water_into_cauldron": {
     "//": "water level in the cauldron rises",
@@ -275,8 +275,8 @@
   },
   "entity.frog.tongue": {
     "sounds": [
-	"mob/frog/tongue5",
-	"mob/frog/tongue6" ]
+	"tiger/mob/frog/tongue5",
+	"tiger/mob/frog/tongue6" ]
   },
   "entity.ghast.hurt": {
     "replace": true,
@@ -298,11 +298,14 @@
       "tiger/entity/splash_potion/break" ]
   },
   "entity.generic.splash": {
+	"//": "any entity enters water",
     "replace": true,
     "sounds": [
       "tiger/liquid/splash1",
       "tiger/liquid/splash2",
-      "tiger/liquid/splash3" ]
+      "tiger/liquid/splash3",
+      "tiger/liquid/splash4",
+      "tiger/liquid/splash5" ]
   },
   "entity.slime.jump_small": {
     "//": "small slime jumps",
@@ -331,4 +334,59 @@
     "sounds": [
       "tiger/mob/slime/small/squish1",
       "tiger/mob/slime/small/squish2" ]
+  },
+  "item.armor.equip_netherite": {
+    "replace": true,
+    "sounds": [
+      "tiger/item/armor/netherite/equip1",
+      "tiger/item/armor/netherite/equip2" ]
+  },
+  "entity.fishing_bobber.splash": {
+    "replace": true,
+    "sounds": [{
+	"name": "tiger.liquid.jump",
+	"type": "event"
+		}]
+  },
+  "item.armor.equip_leather": {
+    "replace": true,
+    "sounds": [
+      "tiger/item/armor/leather/equip1",
+      "tiger/item/armor/leather/equip2", 
+      "tiger/item/armor/leather/equip3",
+      "tiger/item/armor/leather/equip4",
+      "tiger/item/armor/leather/equip5",
+      "tiger/item/armor/leather/equip6" ]
+  },
+  "item.armor.equip_elytra": {
+    "replace": true,
+    "sounds": [{
+	"name": "item.armor.equip_leather",
+	"type": "event"
+		}]
+  },
+  "mcdefault.armor.equip_leather": {
+	"//": "node for extrasounds",
+    "replace": true,
+    "sounds": [
+      "item/armor/equip_leather1",
+      "item/armor/equip_leather2",
+      "item/armor/equip_leather3",
+      "item/armor/equip_leather4",
+      "item/armor/equip_leather5",
+      "item/armor/equip_leather6" ]
+  },
+  "mcdefault.armor.equip_netherite": {
+	"//": "node for extrasounds",
+    "replace": true,
+    "sounds": [
+	"item/armor/equip_netherite1",
+	"item/armor/equip_netherite2",
+	"item/armor/equip_netherite3",
+	"item/armor/equip_netherite4" ]
+  },
+  "entity.pig.saddle": {
+    "replace": true,
+    "sounds": [
+	"tiger/entity/pig/small_saddle" ]
 }}

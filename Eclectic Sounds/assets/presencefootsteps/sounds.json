@@ -688,7 +688,6 @@
     "sounds": [
       "presencefootsteps:water/water_through1",
       "presencefootsteps:water/water_through10",
-      "presencefootsteps:water/water_through11",
       "presencefootsteps:water/water_through2",
       "presencefootsteps:water/water_through3",
       "presencefootsteps:water/water_through4",
@@ -696,6 +695,7 @@
       "presencefootsteps:water/water_through6",
       "presencefootsteps:water/water_through7",
       "presencefootsteps:water/water_through8",
+      "presencefootsteps:water/water_through11",
       "presencefootsteps:water/water_through9"
     ]
   },
@@ -716,7 +716,6 @@
     "sounds": [
       "presencefootsteps:water_stereofix/water_through1",
       "presencefootsteps:water_stereofix/water_through10",
-      "presencefootsteps:water_stereofix/water_through11",
       "presencefootsteps:water_stereofix/water_through2",
       "presencefootsteps:water_stereofix/water_through3",
       "presencefootsteps:water_stereofix/water_through4",
@@ -724,7 +723,8 @@
       "presencefootsteps:water_stereofix/water_through6",
       "presencefootsteps:water_stereofix/water_through7",
       "presencefootsteps:water_stereofix/water_through8",
-      "presencefootsteps:water_stereofix/water_through9"
+      "presencefootsteps:water_stereofix/water_through9",
+      "presencefootsteps:water_stereofix/water_through11"
     ]
   },
   "pf_presence.water_stereofix.water_wander": {
