@@ -3,6 +3,6 @@ Auditory and Extrasounds have a couple of conflicts. To resolve these conflicts 
 
 -Disable the item drop sound from the auditory config;
 
--Copy paste the "audiory.json" file to your configs folder.
+-Copy paste the "auditory.json" file to your configs folder.
 
 I have also changed the config to the best fit for this pack as some sounds which may be worked on by me in the future are disabled by default
