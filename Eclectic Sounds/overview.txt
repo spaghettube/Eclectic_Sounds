@@ -1,4 +1,4 @@
-Current version: b1.13
+Current version: b1.14
 "*" = what changed since the last version
 Games which have participated (or are planned to be) in the making of the pack:
 -Dying Light
@@ -13,8 +13,8 @@ Games which have participated (or are planned to be) in the making of the pack:
 -Banana Kong
 ____________________________________________________________________________
 
-Total sum of all sounds this pack changes: 184 + 41 = 225
-Unique sounds changed within this very update: 41
+Total sum of all sounds this pack changes: 225 + 19 = 244
+Unique sounds changed within this very update: 19
 ____________________________________________________________________________
 Minecraft:
 Blocks:
@@ -24,39 +24,46 @@ Blocks:
 	-dripstone (11) (dripping water sound, can sound broken with the drip sounds mod, especially when raining)
 	-enchantment_table (3)
 	-enderchest (2)
+	-redstone torch (1) (burnout)*
 Entity:
 	-all fish ambient sounds (7)
 	-leashknot (1)
 	-player attack (14)
-	-pig (1) (saddle)*
-	-splash potion (1) (break) (no longer ear damaging!)*
+	-pig (1) (saddle)
+	-splash potion (1) (break)
 Fire:
 	-ignite (1) (use flint and steel)
 Items:
-	-armor
-		-equip
+	-Armor
+		-Equip
 			-chainmail (3)
-			-netherite (2) *
-			-leather (6) *
-			-elytra (6) *
+			-netherite (2)
+			-leather (6)
+			-elytra (6)
 	-shield (3)
 	-totem (1)
+	-Trident
+		-riptide (3)*
 Liquids:
-	-lava (1)
-	-lavapop (1)
-	-water (splash) (5) (added 2 variants)*
+	-Lava:
+		-lava (1)
+		-lavapop (1)
+	-Water:
+		-water (splash) (6) (added variant)*
+		-enter water at high speed (6)*
+		-exit water*
 Mobs:
 	-blaze (shooting sound) (1)
 	-frog (added tongue variants) (2)
 	-ghast (10)
-	-horse (1) (saddle)*
+	-horse (1) (saddle)
 	-iron_golem (9)
 	-slime (10) (attack, jump and squish)
-	-strider (1) (saddle)*
+	-strider (1) (saddle)
 	-turtle (egg hatched) (3)
 	-warden (14)
 Portal:
-	-travel (1)
+	-travel (2) (added variant)*
 Random:
 	-anvil_use (1)
 	-burp (1)
@@ -64,22 +71,23 @@ Random:
 	-click (1) (changes a lot of redstone equipment sounds)
 	-drink (1)
 	-eat (3)
+	-explode (4)*
 	-fizz (1) (burning sound)
 	-pop (1) (pick up)
-	-splash (3) (fishing bobber announces fish)*
+	-splash (3) (fishing bobber announces fish)
 	-wood_click (1) (same thing as click but wood)
 Step:
 	-snow (1)
 Other:
 	-items burning in lava (2)
 	-jumping on water (3)
-	-lever click (1)
-	-player death (4)
+	-lever click (1) (reworked)*
+	-player death (5) (added variant)*
 	-stonecutter select sound (because of the way mc re-uses sounds) (1)
 
 To be worked on: try to fix dripping sounds?; fire; more player death sounds; glass break sounds (current WIP); swimming; trident riptide
 ____________________________________________________________________________
-ExtraSounds: - if you see "pickup" it means I changed inventory related sounds to X item; "category" relates to a group of set items; "select" sounds are played only when select said items in your hotbar
+ExtraSounds: - if you see "pickup" it means I changed inventory related sounds to X item; "category" relates to a group of set items; "select" sounds are played only when selecting said items in your hotbar
 Action:
 	-bow pull (2)
 Effect:
@@ -92,17 +100,17 @@ Inventory:
 	-inventory.open (1)
 Items:
 	-item.category.crunchy_dry (changes some food sounds, mostly vegetables) (3)
-	-item.category.gear.netherite (4) (tweaked the sound a little)*
-	-item.category.gear.leather (6) *
+	-item.category.gear.netherite (4)
+	-item.category.gear.leather (6)
 	-item.category.metal (1)
 	-item.category.metal.bits (1)
 	-item.category.paper (1) (not replaced but added a sound)
 	-item.pickup_all (1) (pick up full a stack of items from double clicking a single one in the inventory)
 	-item.pickup.minecraft.charcoal (1)
 	-item.pickup.minecraft.coal (1)
-	-item.pickup.minecraft.elytra (6)*
+	-item.pickup.minecraft.elytra (6)
 	-item.pickup.minecraft.emerald (1)
-	-item.pickup.minecraft.diamond (1)*
+	-item.pickup.minecraft.diamond (1)
 	-item.pickup.minecraft.flint_and_steel (1)
 	-item.pickup.minecraft.iron_bars (1)
 	-item.select.minecraft.diamond_sword (1)
@@ -140,7 +148,7 @@ Block:
 	-jukebox disc in and out (2)
 Tools:
 	-bow pull (1)
-	-shield raise (1)*
+	-shield raise (1)
 
 To be worked on: shield blocking; tool swing sounds
 ____________________________________________________________________________
