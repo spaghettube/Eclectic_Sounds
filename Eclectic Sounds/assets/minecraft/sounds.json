@@ -1,12 +1,12 @@
 {
-
   "entity.player.death": {
     "replace": true,
     "sounds": [
       "tiger/entity/player/death1",
       "tiger/entity/player/death2",
       "tiger/entity/player/death3",
-      "tiger/entity/player/death4" ]
+      "tiger/entity/player/death4",
+      "tiger/entity/player/death5" ]
   },
   "block.snow.step": {
     "replace": true,
@@ -149,10 +149,10 @@
     "//": "water contacts with water",
     "replace": true,
     "sounds": [
-      "tiger/liquid/lava_extinguish1",
-      "tiger/liquid/lava_extinguish2",
-      "tiger/liquid/lava_extinguish3",
-      "tiger/liquid/lava_extinguish4" ]
+      "tiger/liquid/lava/extinguish1",
+      "tiger/liquid/lava/extinguish2",
+      "tiger/liquid/lava/extinguish3",
+      "tiger/liquid/lava/extinguish4" ]
   },
   "block.lever.click": {
     "replace": true,
@@ -253,9 +253,9 @@
     "//": "small hops on water",
     "replace": true,
     "sounds": [
-	"tiger/liquid/jump_on_water1",
-	"tiger/liquid/jump_on_water2",
-	"tiger/liquid/jump_on_water3" ]
+	"tiger/liquid/water/jump_on_water1",
+	"tiger/liquid/water/jump_on_water2",
+	"tiger/liquid/water/jump_on_water3" ]
   },
   "entity.hostile.splash": {
     "replace": true,
@@ -269,7 +269,7 @@
     "replace": true,
     "sounds": [{
 	"name": "tiger.liquid.jump",
-	"volume": 9.0,
+	"volume": 8.0,
 	"type": "event"
 	}]
   },
@@ -301,11 +301,12 @@
 	"//": "any entity enters water",
     "replace": true,
     "sounds": [
-      "tiger/liquid/splash1",
-      "tiger/liquid/splash2",
-      "tiger/liquid/splash3",
-      "tiger/liquid/splash4",
-      "tiger/liquid/splash5" ]
+      "tiger/liquid/water/splash1",
+      "tiger/liquid/water/splash2",
+      "tiger/liquid/water/splash3",
+      "tiger/liquid/water/splash4",
+      "tiger/liquid/water/splash5",
+      "tiger/liquid/water/splash6" ]
   },
   "entity.slime.jump_small": {
     "//": "small slime jumps",
@@ -389,4 +390,28 @@
     "replace": true,
     "sounds": [
 	"tiger/entity/pig/small_saddle" ]
+  },
+  "block.portal.travel": {
+    "replace": true,
+    "sounds": [
+	"tiger/portal/travel1",
+	"tiger/portal/travel2" ]
+  },
+  "entity.player.splash.high_speed": {
+    "replace": true,
+    "sounds": [{
+	"name": "entity.generic.splash",
+	"volume": 1.4,
+	"type": "event"
+		}]
+  },
+  "ambient.underwater.exit": {
+    "replace": true,
+    "sounds": [
+	"tiger/liquid/water/out" ]
+  },
+  "block.redstone_torch.burnout": {
+    "replace": true,
+    "sounds": [
+	"tiger/block/redstone_torch/burnout" ]
 }}
