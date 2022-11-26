@@ -154,14 +154,6 @@
       "tiger/liquid/lava/extinguish3",
       "tiger/liquid/lava/extinguish4" ]
   },
-  "block.lever.click": {
-    "replace": true,
-    "sounds": [{
-	"name": "tiger/random/lever_click",
-	"volume": 3.5,
-	"pitch": 1.7
-	}]
-  },
   "entity.blaze.shoot": {
     "replace": true,
     "sounds": [
@@ -408,10 +400,93 @@
   "ambient.underwater.exit": {
     "replace": true,
     "sounds": [
-	"tiger/liquid/water/out" ]
+	"tiger/liquid/water/exit" ]
   },
   "block.redstone_torch.burnout": {
     "replace": true,
     "sounds": [
 	"tiger/block/redstone_torch/burnout" ]
+  },
+  "block.dispenser.dispense": {
+    "replace": true,
+    "sounds": [
+      "tiger/block/dispenser/dispense" ]
+  },
+  "block.lever.click": {
+    "replace": true,
+    "sounds": [{
+	"name": "tiger/random/fix_lever_click",
+	"pitch": 1.8,
+	"volume": 2.5
+		}]
+  },
+  "block.stone_button.click_on": {
+    "replace": true,
+    "sounds": [{
+	"name": "tiger/random/fix_stone_click_global",
+	"pitch": 1.5
+		}]
+  },
+  "block.stone_button.click_off": {
+    "replace": true,
+    "sounds": [{
+	"name": "tiger/random/fix_stone_click_global",
+	"pitch": 1.5
+		}]
+  },
+  "block.wooden_button.click_on": {
+    "replace": true,
+    "sounds": [{
+	"name": "tiger/random/fix_wooden_click_global",
+	"pitch": 1.5
+		}]
+  },
+  "block.wooden_button.click_off": {
+    "replace": true,
+    "sounds": [{
+	"name": "tiger/random/fix_wooden_click_global",
+	"pitch": 1.5
+		}]
+  },
+  "block.stone_pressure_plate.click_on": {
+    "replace": true,
+    "sounds": [{
+	"name": "tiger/random/fix_stone_click_global",
+	"pitch": 1.5
+		}]
+  },
+  "block.stone_pressure_plate.click_off": {
+    "replace": true,
+    "sounds": [{
+	"name": "tiger/random/fix_stone_click_global",
+	"pitch": 1.5
+		}]
+  },
+  "block.wooden_pressure_plate.click_on": {
+    "replace": true,
+    "sounds": [{
+	"name": "tiger/random/fix_stone_click_global",
+	"pitch": 1.5
+		}]
+  },
+  "block.wooden_pressure_plate.click_off": {
+    "replace": true,
+    "sounds": [{
+	"name": "tiger/random/fix_stone_click_global",
+	"pitch": 1.5
+		}]
+  },
+  "block.tripwire.attach": {
+    "replace": true,
+    "sounds": [{
+      "name": "tiger/random/hook_attach", 
+	"pitch": 1.5
+		}]
+  },
+  "block.comparator.click": {
+    "replace": true,
+    "sounds": [{
+      "name": "tiger/random/fix_stone_click_global",
+	"pitch": 1.5
+		}]
 }}
