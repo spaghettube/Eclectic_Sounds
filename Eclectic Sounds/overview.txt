@@ -1,4 +1,4 @@
-Current version: b1.14
+Current version: b1.15
 "*" = what changed since the last version
 Games which have participated (or are planned to be) in the making of the pack:
 -Dying Light
@@ -13,18 +13,18 @@ Games which have participated (or are planned to be) in the making of the pack:
 -Banana Kong
 ____________________________________________________________________________
 
-Total sum of all sounds this pack changes: 225 + 19 = 244
-Unique sounds changed within this very update: 19
+Total sum of all sounds this pack changes: 244 + 11 = 255
+Unique sounds changed within this very update: 11
 ____________________________________________________________________________
 Minecraft:
 Blocks:
 	-beacon (6)
 	-bubble_column (6) (travelling up and down)
-	-dispenser/dropper fail (1) (because of the way mc re-uses sounds)
+	-dispenser/dropper (2) (dispense)*
 	-dripstone (11) (dripping water sound, can sound broken with the drip sounds mod, especially when raining)
-	-enchantment_table (3)
+	-enchantment table (3)
 	-enderchest (2)
-	-redstone torch (1) (burnout)*
+	-redstone torch (1) (burnout)
 Entity:
 	-all fish ambient sounds (7)
 	-leashknot (1)
@@ -34,8 +34,8 @@ Entity:
 Fire:
 	-ignite (1) (use flint and steel)
 Items:
-	-Armor
-		-Equip
+	-Armor:
+		-Equip:
 			-chainmail (3)
 			-netherite (2)
 			-leather (6)
@@ -43,15 +43,15 @@ Items:
 	-shield (3)
 	-totem (1)
 	-Trident
-		-riptide (3)*
+		-riptide (3)
 Liquids:
 	-Lava:
-		-lava (1)
+		-lava ambient (1)
 		-lavapop (1)
 	-Water:
-		-water (splash) (6) (added variant)*
-		-enter water at high speed (6)*
-		-exit water*
+		-splash (6)
+		-enter water at high speed (6)
+		-exit water (1)
 Mobs:
 	-blaze (shooting sound) (1)
 	-frog (added tongue variants) (2)
@@ -63,27 +63,33 @@ Mobs:
 	-turtle (egg hatched) (3)
 	-warden (14)
 Portal:
-	-travel (2) (added variant)*
+	-travel (2)
 Random:
 	-anvil_use (1)
 	-burp (1)
 	-click_stereo (1) (menu click sound) 
-	-click (1) (changes a lot of redstone equipment sounds)
+	-Click:
+		-stone button on/off (2) (fixed as it was echoing before)*
+		-wooden button on/off (2) (also fixed)*
+		-tripwire hook
+			-attach (1)*
+		-stone pressure plate on/off (2)*
+		-wooden pressure plate on/off (2)*
 	-drink (1)
 	-eat (3)
-	-explode (4)*
+	-explode (4)
 	-fizz (1) (burning sound)
 	-pop (1) (pick up)
 	-splash (3) (fishing bobber announces fish)
-	-wood_click (1) (same thing as click but wood)
 Step:
 	-snow (1)
 Other:
 	-items burning in lava (2)
 	-jumping on water (3)
 	-lever click (1) (reworked)*
-	-player death (5) (added variant)*
+	-player death (5)
 	-stonecutter select sound (because of the way mc re-uses sounds) (1)
+	-comparator switch sounds (1)*
 
 To be worked on: try to fix dripping sounds?; fire; more player death sounds; glass break sounds (current WIP); swimming; trident riptide
 ____________________________________________________________________________
