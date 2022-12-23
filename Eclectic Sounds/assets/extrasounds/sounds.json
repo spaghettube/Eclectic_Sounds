@@ -332,13 +332,21 @@
   "item.category.potion": {
     "sounds": [
       {
-        "name": "minecraft:item.bottle.fill",
+        "name": "extrasounds:tiger.item.bottle.fill.ES",
         "volume": 0.3,
         "pitch": 2,
         "type": "event"
       }
     ],
     "replace": true
+  },
+  "tiger.item.bottle.fill.ES": {
+    "replace": true,
+    "sounds": [
+	"item/bottle/fill1", 
+	"item/bottle/fill2",
+	"item/bottle/fill3",
+	"item/bottle/fill4" ]
   },
   "item.category.rail": {
     "sounds": [
