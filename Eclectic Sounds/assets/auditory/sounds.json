@@ -116,13 +116,11 @@
   },
 
   "item.spawn_egg.use": {
-    "sounds": [
-      "auditory:item/spawn_egg/use1",
-      "auditory:item/spawn_egg/use2",
-      "auditory:item/spawn_egg/use3",
-      "auditory:item/spawn_egg/use4",
-      "auditory:item/spawn_egg/use5"
-    ],
+	"replace": true,
+    "sounds": [{
+      "name": "minecraft:entity.turtle.egg_hatch",
+	  "type": "event"
+    }],
     "subtitle": "subtitles.item.spawn_egg.use"
   },
 

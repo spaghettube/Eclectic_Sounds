@@ -61,11 +61,11 @@
   "entity.warden.listening_angry": {
     "replace": true,
     "sounds": [{
-      "name": "entity.warden.listening",
-	"type": "event",
-	"pitch": 1.05,
-	"volume": 1.5
-	}]
+		"name": "entity.warden.listening",
+		"type": "event",
+		"pitch": 1.05,
+		"volume": 1.5
+		}]
   },
   "ui.stonecutter.select_recipe": {
     "replace": true,
@@ -180,30 +180,30 @@
   "entity.tropical_fish.ambient": {
     "replace": true,
     "sounds": [{
-      "name": "block.bubble_column.bubble_pop",
-	"type": "event" 
-	}]
+		"name": "block.bubble_column.bubble_pop",
+		"type": "event" 
+		}]
   },
   "entity.cod.ambient": {
     "replace": true,
     "sounds": [{
-      "name": "block.bubble_column.bubble_pop",
-	"type": "event" 
-	}]
+		"name": "block.bubble_column.bubble_pop",
+		"type": "event" 
+		}]
   },
   "entity.puffer_fish.ambient": {
     "replace": true,
     "sounds": [{
-      "name": "block.bubble_column.bubble_pop",
-	"type": "event" 
-	}]
+		"name": "block.bubble_column.bubble_pop",
+		"type": "event" 
+		}]
   },
   "entity.salmon.ambient": {
     "replace": true,
     "sounds": [{
-      "name": "block.bubble_column.bubble_pop",
-	"type": "event" 
-	}]
+		"name": "block.bubble_column.bubble_pop",
+		"type": "event" 
+		}]
   },
   "item.shield.block": {
     "replace": true,
@@ -219,21 +219,21 @@
   "tiger.bubbles": {
     "replace": true,
     "sounds": [
-	"block/bubble_column/bubble1",
-	"block/bubble_column/bubble2",
-	"block/bubble_column/bubble3",
-	"tiger/block/bubble_column/bubble4",
-	"tiger/block/bubble_column/bubble5",
-	"tiger/block/bubble_column/bubble6",
-	"tiger/block/bubble_column/bubble7" ]
+		"block/bubble_column/bubble1",
+		"block/bubble_column/bubble2",
+		"block/bubble_column/bubble3",
+		"tiger/block/bubble_column/bubble4",
+		"tiger/block/bubble_column/bubble5",
+		"tiger/block/bubble_column/bubble6",
+		"tiger/block/bubble_column/bubble7" ]
   },
   "block.bubble_column.bubble_pop": {
     "replace": true,
     "sounds": [{
-      "name": "tiger.bubbles",
-	"volume": 0.7,
-	"type": "event" 
-	}]
+		"name": "tiger.bubbles",
+		"volume": 0.7,
+		"type": "event" 
+		}]
   },
   "entity.generic.burn": {
     "//": "item burns",
@@ -246,30 +246,30 @@
     "//": "small hops on water",
     "replace": true,
     "sounds": [
-	"tiger/liquid/water/jump_on_water1",
-	"tiger/liquid/water/jump_on_water2",
-	"tiger/liquid/water/jump_on_water3" ]
+		"tiger/liquid/water/jump_on_water1",
+		"tiger/liquid/water/jump_on_water2",
+		"tiger/liquid/water/jump_on_water3" ]
   },
   "entity.hostile.splash": {
     "replace": true,
     "sounds": [{
-	"name": "tiger.liquid.jump",
-	"volume": 9.0,
-	"type": "event"
-	}]
+		"name": "tiger.liquid.jump",
+		"volume": 9.0,
+		"type": "event"
+		}]
   },
   "entity.player.splash": {
     "replace": true,
     "sounds": [{
-	"name": "tiger.liquid.jump",
-	"volume": 8.0,
-	"type": "event"
+		"name": "tiger.liquid.jump",
+		"volume": 8.0,
+		"type": "event"
 	}]
   },
   "entity.frog.tongue": {
     "sounds": [
-	"tiger/mob/frog/tongue5",
-	"tiger/mob/frog/tongue6" ]
+		"tiger/mob/frog/tongue5",
+		"tiger/mob/frog/tongue6" ]
   },
   "entity.ghast.hurt": {
     "replace": true,
@@ -339,8 +339,8 @@
   "entity.fishing_bobber.splash": {
     "replace": true,
     "sounds": [{
-	"name": "tiger.liquid.jump",
-	"type": "event"
+		"name": "tiger.liquid.jump",
+		"type": "event"
 		}]
   },
   "item.armor.equip_leather": {
@@ -356,8 +356,8 @@
   "item.armor.equip_elytra": {
     "replace": true,
     "sounds": [{
-	"name": "item.armor.equip_leather",
-	"type": "event"
+		"name": "item.armor.equip_leather",
+		"type": "event"
 		}]
   },
   "mcdefault.armor.equip_leather": {
@@ -375,39 +375,39 @@
 	"//": "node for extrasounds",
     "replace": true,
     "sounds": [
-	"item/armor/equip_netherite1",
-	"item/armor/equip_netherite2",
-	"item/armor/equip_netherite3",
-	"item/armor/equip_netherite4" ]
+		"item/armor/equip_netherite1",
+		"item/armor/equip_netherite2",
+		"item/armor/equip_netherite3",
+		"item/armor/equip_netherite4" ]
   },
   "entity.pig.saddle": {
     "replace": true,
     "sounds": [
-	"tiger/entity/pig/small_saddle" ]
+		"tiger/entity/pig/small_saddle" ]
   },
   "block.portal.travel": {
     "replace": true,
     "sounds": [
-	"tiger/portal/travel1",
-	"tiger/portal/travel2" ]
+		"tiger/portal/travel1",
+		"tiger/portal/travel2" ]
   },
   "entity.player.splash.high_speed": {
     "replace": true,
     "sounds": [{
-	"name": "entity.generic.splash",
-	"volume": 1.4,
-	"type": "event"
+		"name": "entity.generic.splash",
+		"volume": 1.4,
+		"type": "event"
 		}]
   },
   "ambient.underwater.exit": {
     "replace": true,
     "sounds": [
-	"tiger/liquid/water/exit" ]
+		"tiger/liquid/water/exit" ]
   },
   "block.redstone_torch.burnout": {
     "replace": true,
     "sounds": [
-	"tiger/block/redstone_torch/burnout" ]
+		"tiger/block/redstone_torch/burnout" ]
   },
   "block.dispenser.dispense": {
     "replace": true,
@@ -417,79 +417,79 @@
   "block.lever.click": {
     "replace": true,
     "sounds": [{
-	"name": "tiger/random/fix_lever_click",
-	"pitch": 1.8,
-	"volume": 2.5
+		"name": "tiger/random/fix_lever_click",
+		"pitch": 1.8,
+		"volume": 2.5
 		}]
   },
   "block.stone_button.click_on": {
     "replace": true,
     "sounds": [{
-	"name": "tiger/random/fix_stone_click_global",
-	"pitch": 1.5
+		"name": "tiger/random/fix_stone_click_global",
+		"pitch": 1.5
 		}]
   },
   "block.stone_button.click_off": {
     "replace": true,
     "sounds": [{
-	"name": "tiger/random/fix_stone_click_global",
-	"pitch": 1.5
+		"name": "tiger/random/fix_stone_click_global",
+		"pitch": 1.5
 		}]
   },
   "block.wooden_button.click_on": {
     "replace": true,
     "sounds": [{
-	"name": "tiger/random/fix_wooden_click_global",
-	"pitch": 1.5
+		"name": "tiger/random/fix_wooden_click_global",
+		"pitch": 1.5
 		}]
   },
   "block.wooden_button.click_off": {
     "replace": true,
     "sounds": [{
-	"name": "tiger/random/fix_wooden_click_global",
-	"pitch": 1.5
+		"name": "tiger/random/fix_wooden_click_global",
+		"pitch": 1.5
 		}]
   },
   "block.stone_pressure_plate.click_on": {
     "replace": true,
     "sounds": [{
-	"name": "tiger/random/fix_stone_click_global",
-	"pitch": 1.5
+		"name": "tiger/random/fix_stone_click_global",
+		"pitch": 1.5
 		}]
   },
   "block.stone_pressure_plate.click_off": {
     "replace": true,
     "sounds": [{
-	"name": "tiger/random/fix_stone_click_global",
-	"pitch": 1.5
+		"name": "tiger/random/fix_stone_click_global",
+		"pitch": 1.5
 		}]
   },
   "block.wooden_pressure_plate.click_on": {
     "replace": true,
     "sounds": [{
-	"name": "tiger/random/fix_stone_click_global",
-	"pitch": 1.5
+		"name": "tiger/random/fix_stone_click_global",
+		"pitch": 1.5
 		}]
   },
   "block.wooden_pressure_plate.click_off": {
     "replace": true,
     "sounds": [{
-	"name": "tiger/random/fix_stone_click_global",
-	"pitch": 1.5
+	 "name": "tiger/random/fix_stone_click_global",
+	 "pitch": 1.5
 		}]
   },
   "block.tripwire.attach": {
     "replace": true,
     "sounds": [{
       "name": "tiger/random/hook_attach", 
-	"pitch": 1.5
+	  "pitch": 1.5
 		}]
   },
   "block.comparator.click": {
     "replace": true,
     "sounds": [{
-      "name": "tiger/random/fix_stone_click_global",
-	"pitch": 1.5
+      "name": "tiger/random/fix_stone_click_global", 
+	  "pitch": 1.5
 		}]
   },
   "entity.lightning_bolt.impact": {
@@ -500,28 +500,39 @@
   "tiger.entity.lightning_bolt.thunder.lower_vol": {
     "replace": true,
     "sounds": [
-	"ambient/weather/thunder1",
-	"ambient/weather/thunder2",
-	"ambient/weather/thunder3" ]
+		"ambient/weather/thunder1",
+		"ambient/weather/thunder2",
+		"ambient/weather/thunder3" ]
   },
   "entity.lightning_bolt.thunder": {
     "replace": true,
     "sounds": [{
       "name": "tiger.entity.lightning_bolt.thunder.lower_vol",
-	"pitch": 1.5,
-	"type": "event"
+		"pitch": 1.5,
+		"type": "event"
 		}]
   },
   "item.bottle.fill": {
     "replace": true,
     "sounds": [
-	"tiger/item/bottle/fill1",
-	"tiger/item/bottle/fill2" ]
+		"tiger/item/bottle/fill1",
+		"tiger/item/bottle/fill2" ]
   },
   "item.bucket.fill_lava": {
     "replace": true,
     "sounds": [
-	"tiger/item/bucket/fill/lava1",
-	"tiger/item/bucket/fill/lava2",
-	"tiger/item/bucket/fill/lava3" ]
+		"tiger/item/bucket/fill/lava1",
+		"tiger/item/bucket/fill/lava2",
+		"tiger/item/bucket/fill/lava3" ]
+  },
+  "ambient.cave": {
+	"sounds": [{
+		"name": "tiger/ambient/cave/cave20",
+		"weight": 2,
+		"volume": 0.8
+		},
+		{
+		"name": "tiger/ambient/cave/cave21",
+		"weight": 4
+		}]
 }}

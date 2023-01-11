@@ -305,6 +305,16 @@
 	}
     ]
   },
+      "item.category.metal_sheets": {
+        "sounds": [
+            {
+                "name": "minecraft:item.armor.equip_netherite",
+                "pitch": 2,
+                "type": "event",
+                "volume": 0.5
+            }
+        ]
+    },
   "item.category.minecart": {
     "sounds": [
       {
