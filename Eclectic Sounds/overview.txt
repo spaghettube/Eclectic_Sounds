@@ -1,4 +1,4 @@
-Current version: b1.16
+Current version: b1.17
 "*" = what changed since the last version
 Games which have participated (or are planned to be) in the making of the pack:
 -Dying Light
@@ -13,10 +13,12 @@ Games which have participated (or are planned to be) in the making of the pack:
 -Banana Kong
 ____________________________________________________________________________
 
-Total sum of all sounds this pack changes: 255 + 10 = 265
-Unique sounds changed within this very update: 10
+Total sum of all sounds this pack changes: 265 + 5 = 270
+Unique sounds changed within this very update: 270
 ____________________________________________________________________________
 Minecraft:
+Ambient:
+	-cave (added a couple of water dripping sounds) (2)*
 Blocks:
 	-beacon (6)
 	-bubble_column (6) (travelling up and down)
@@ -28,7 +30,7 @@ Blocks:
 Entity:
 	-all fish ambient sounds (7)
 	-leashknot (1)
-	-lightning bolt (1) (impact + sharply lowered the thunder sound)*
+	-lightning bolt (1) (impact + sharply lowered the thunder sound)
 	-player attack (14)
 	-pig (1) (saddle)
 	-splash potion (1) (break)
@@ -41,10 +43,10 @@ Items:
 			-netherite (2)
 			-leather (6)
 			-elytra (6)
-	-bottle (2) (fill)*
+	-bottle (2) (fill)
 	-bucket
 		-fill
-			-lava (3)*
+			-lava (3)
 	-shield (3)
 	-totem (1)
 	-Trident
@@ -54,7 +56,7 @@ Liquids:
 		-lava ambient (1)
 		-lavapop (1)
 	-Water:
-		-splash (7) (added variant)*
+		-splash (7)
 		-enter water at high speed (6)
 		-exit water (1)
 Mobs:
@@ -92,11 +94,11 @@ Other:
 	-items burning in lava (2)
 	-jumping on water (3)
 	-lever click (1)
-	-player death (6) (added variant)*
+	-player death (6) (added variant)
 	-stonecutter select sound (because of the way mc re-uses sounds) (1)
 	-comparator switch sounds (1)
 
-To be worked on: try to fix dripping sounds?; fire; more player death sounds; glass break sounds (current WIP); swimming; trident riptide
+To be worked on: try to fix dripping sounds?; fire; more player death sounds; glass break sounds (current WIP); swimming
 ____________________________________________________________________________
 ExtraSounds: - if you see "pickup" it means I changed inventory related sounds to X item; "category" relates to a group of set items; "select" sounds are played only when selecting said items in your hotbar
 Action:
@@ -124,8 +126,8 @@ Items:
 	-item.pickup.minecraft.diamond (1)
 	-item.pickup.minecraft.flint_and_steel (1)
 	-item.pickup.minecraft.iron_bars (1)
-	-item.pickup.minecraft.lava_bucket (3)*
-	-item.pickup.minecraft.water_bottle (1)*
+	-item.pickup.minecraft.lava_bucket (3)
+	-item.pickup.minecraft.water_bottle (1)
 	-item.select.minecraft.diamond_sword (1)
 	-item.select.minecraft.golden_sword (1)
 	-item.select.minecraft.iron_sword (1)
@@ -162,6 +164,8 @@ Block:
 Tools:
 	-bow pull (1)
 	-shield raise (1)
+Items:
+	-use spawn egg (3)*
 
 To be worked on: shield blocking; tool swing sounds
 ____________________________________________________________________________
