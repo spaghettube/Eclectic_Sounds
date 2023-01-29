@@ -7,7 +7,9 @@
       "tiger/entity/player/death3",
       "tiger/entity/player/death4",
       "tiger/entity/player/death5",
-      "tiger/entity/player/death6" ]
+      "tiger/entity/player/death6",
+      "tiger/entity/player/death7",
+      "tiger/entity/player/death8" ]
   },
   "block.snow.step": {
     "replace": true,
