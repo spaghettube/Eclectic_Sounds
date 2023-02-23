@@ -174,8 +174,10 @@
       "presencefootsteps:dirt/dirt_wander2",
       "presencefootsteps:dirt/dirt_wander3",
       "presencefootsteps:dirt/dirt_wander4",
-      "presencefootsteps:dirt/dirt_wander5"
-    ]
+      "presencefootsteps:dirt/dirt_wander5",
+	  "presencefootsteps:dirt/dirt_wander6",
+	  "presencefootsteps:dirt/dirt_wander7",
+	  "presencefootsteps:dirt/dirt_wander8" ]
   },
   "pf_presence.glass.glass_hard": {
     "category": "master",

@@ -496,8 +496,12 @@
   },
   "entity.lightning_bolt.impact": {
     "replace": true,
-    "sounds": [
-      "tiger/entity/lightning_bolt/impact1" ]
+    "sounds": [{
+      "name": "tiger/entity/lightning_bolt/impact1",
+	  "weight": 2
+	},
+	{
+	"name": "tiger/entity/lightning_bolt/impact2" }]
   },
   "tiger.entity.lightning_bolt.thunder.lower_vol": {
     "replace": true,
@@ -537,4 +541,12 @@
 		"name": "tiger/ambient/cave/cave21",
 		"weight": 4
 		}]
+  },
+    "entity.skeleton.death": {
+	 "replace": true,
+     "sounds": [
+      "tiger/mob/skeleton/death1",
+	  "tiger/mob/skeleton/death2",
+	  "tiger/mob/skeleton/death3",
+	  "tiger/mob/skeleton/death4" ]
 }}
