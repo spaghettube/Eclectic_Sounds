@@ -1,4 +1,4 @@
-Current version: R1.1_(270)
+Current version: R1.2_(280)
 "*" = what changed since the last version
 Games which have participated (or are planned to be) in the making of the pack:
 -Dying Light
@@ -11,11 +11,12 @@ Games which have participated (or are planned to be) in the making of the pack:
 -Pocket Frogs
 -Jetpack Joyride
 -Banana Kong
--Fnaf Game Series*
+-Fnaf Game Series
+-Guild Wars 2*
 ____________________________________________________________________________
 
-Total sum of all sounds this pack changes: 270 + 5 = 275
-Unique sounds changed within this very update: 275
+Total sum of all sounds this pack changes: 275 + 8 = 283
+Unique sounds changed within this very update: 8
 ____________________________________________________________________________
 Minecraft:
 Ambient:
@@ -31,7 +32,7 @@ Blocks:
 Entity:
 	-all fish ambient sounds (7)
 	-leashknot (1)
-	-lightning bolt (1) (impact + sharply lowered the thunder sound)
+	-lightning bolt (2)* (impact + sharply lowered the thunder sound)
 	-Player: (17)
 		-Attack: (14)
 			-critical hit (1)
@@ -41,7 +42,7 @@ Entity:
 			-not full charged attack (2)
 			-sword sweep (4)
 		-Hurt: (3)
-			-fire hurt (3)*
+			-fire hurt (3)
 	-pig (1) (saddle)
 	-splash potion (1) (break)
 Fire:
@@ -75,6 +76,7 @@ Mobs:
 	-ghast (10)
 	-horse (1) (saddle)
 	-iron_golem (9)
+	-skeleton (death) (4)*
 	-slime (10) (attack, jump and squish)
 	-strider (1) (saddle)
 	-turtle (egg hatched) (3)
@@ -104,7 +106,7 @@ Other:
 	-items burning in lava (2)
 	-jumping on water (3)
 	-lever click (1)
-	-player death (8) (added variant)*
+	-player death (8)
 	-stonecutter select sound (because of the way mc re-uses sounds) (1)
 	-comparator switch sounds (1)
 
@@ -158,8 +160,9 @@ NotifMod: temporarly stopped working on this one because of a consistent crash
 To be worked on: player join/leave
 ____________________________________________________________________________
 Presence Footsteps:
-	-snow (4)
+	-dirt (add dirt wander variants) (3)*
 	-leaves (6) (not replaced but added a couple sounds)
+	-snow (4)
 
 To be worked on: nothing on my mind yet
 ____________________________________________________________________________
