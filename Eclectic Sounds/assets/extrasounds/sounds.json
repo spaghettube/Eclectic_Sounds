@@ -1,21 +1,17 @@
 {
   "chat.mention": {
-    "sounds": [
-      {
-        "name": "minecraft:note/icechime",
-        "volume": 0.9,
-        "pitch": 1.8
-      }
-    ]
+	"replace": true,
+    "sounds": [{
+	"name": "notifmod:chat.mention",
+	"type": "event"
+		}]
   },
   "chat.message": {
-    "sounds": [
-      {
-        "name": "minecraft:note/hat",
-        "volume": 0.8,
-        "pitch": 2.0
-      }
-    ]
+	"replace": true,
+    "sounds": [{
+	"name": "notifmod:chat.message",
+	"type": "event" 
+		}]
   },
   "generic.click": {
     "sounds": [

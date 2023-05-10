@@ -549,4 +549,11 @@
 	  "tiger/mob/skeleton/death2",
 	  "tiger/mob/skeleton/death3",
 	  "tiger/mob/skeleton/death4" ]
+  },
+  "entity.skeleton.hurt": {
+	"replace": true,
+    "sounds": [
+      "tiger/mob/skeleton/hurt1",
+      "tiger/mob/skeleton/hurt2",
+      "tiger/mob/skeleton/hurt3" ]
 }}

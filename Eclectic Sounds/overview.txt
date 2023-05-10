@@ -12,11 +12,11 @@ Games which have participated (or are planned to be) in the making of the pack:
 -Jetpack Joyride
 -Banana Kong
 -Fnaf Game Series
--Guild Wars 2*
+-Guild Wars 2
 ____________________________________________________________________________
 
-Total sum of all sounds this pack changes: 275 + 8 = 283
-Unique sounds changed within this very update: 8
+Total sum of all sounds this pack changes: 283 + 4 = 287
+Unique sounds changed within this very update: 287
 ____________________________________________________________________________
 Minecraft:
 Ambient:
@@ -32,7 +32,7 @@ Blocks:
 Entity:
 	-all fish ambient sounds (7)
 	-leashknot (1)
-	-lightning bolt (2)* (impact + sharply lowered the thunder sound)
+	-lightning bolt (2) (impact + sharply lowered the thunder sound)
 	-Player: (17)
 		-Attack: (14)
 			-critical hit (1)
@@ -76,7 +76,9 @@ Mobs:
 	-ghast (10)
 	-horse (1) (saddle)
 	-iron_golem (9)
-	-skeleton (death) (4)*
+	-Skeleton
+		-death (4)
+		-hurt (3)*
 	-slime (10) (attack, jump and squish)
 	-strider (1) (saddle)
 	-turtle (egg hatched) (3)
@@ -145,11 +147,12 @@ Items:
 	-item.select.minecraft.iron_sword (1)
 	-item.select.minecraft.netherite_sword (1)
 Others:
+	-chat.message (1)*
 	-hotbar_scroll (1)
 	-item.drop (1)
 	-keyboard.type (1) (needs to be enabled in sounds - extrasounds (the gear to the right) - keyboard volume)
 
-To be worked on: variations of item.category.metal
+To be worked on: variations of item.category.metal, keyboard variations
 ____________________________________________________________________________
 NotifMod: temporarly stopped working on this one because of a consistent crash
 	-mention (1)
@@ -160,7 +163,7 @@ NotifMod: temporarly stopped working on this one because of a consistent crash
 To be worked on: player join/leave
 ____________________________________________________________________________
 Presence Footsteps:
-	-dirt (add dirt wander variants) (3)*
+	-dirt (add dirt wander variants) (3)
 	-leaves (6) (not replaced but added a couple sounds)
 	-snow (4)
 
