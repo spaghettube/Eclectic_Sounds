@@ -1,4 +1,4 @@
-Current version: R1.2_(280)
+Current version: R1.3_(280)
 "*" = what changed since the last version
 Games which have participated (or are planned to be) in the making of the pack:
 -Dying Light
@@ -15,12 +15,13 @@ Games which have participated (or are planned to be) in the making of the pack:
 -Guild Wars 2
 ____________________________________________________________________________
 
-Total sum of all sounds this pack changes: 283 + 4 = 287
-Unique sounds changed within this very update: 287
+Total sum of all sounds this pack changes: 287 + 34 = 321
+Unique sounds changed within this very update: 321
 ____________________________________________________________________________
 Minecraft:
 Ambient:
 	-cave (added a couple of water dripping sounds) (2)
+	-soulsand valley (added variants) (6)*
 Blocks:
 	-beacon (6)
 	-bubble_column (6) (travelling up and down)
@@ -66,19 +67,20 @@ Liquids:
 	-Lava: (2)
 		-lava ambient (1)
 		-lavapop (1)
-	-Water: (14)
-		-splash (7)
-		-enter water at high speed (6)
+	-Water: (25)
+		-splash (7 -> 12)*
+		-enter water at high speed (12)*
 		-exit water (1)
 Mobs:
 	-blaze (shooting sound) (1)
+	-drowned (trident throw) (5)*
 	-frog (added tongue variants) (2)
 	-ghast (10)
 	-horse (1) (saddle)
 	-iron_golem (9)
 	-Skeleton
 		-death (4)
-		-hurt (3)*
+		-hurt (3)
 	-slime (10) (attack, jump and squish)
 	-strider (1) (saddle)
 	-turtle (egg hatched) (3)
@@ -104,6 +106,8 @@ Random:
 	-splash (3) (fishing bobber announces fish)
 Step:
 	-snow (1)
+Weather:
+	-rain (8) (lowered the overly noisy sound, might work on replacing it?)*
 Other:
 	-items burning in lava (2)
 	-jumping on water (3)
@@ -147,7 +151,7 @@ Items:
 	-item.select.minecraft.iron_sword (1)
 	-item.select.minecraft.netherite_sword (1)
 Others:
-	-chat.message (1)*
+	-chat.message (1)
 	-hotbar_scroll (1)
 	-item.drop (1)
 	-keyboard.type (1) (needs to be enabled in sounds - extrasounds (the gear to the right) - keyboard volume)

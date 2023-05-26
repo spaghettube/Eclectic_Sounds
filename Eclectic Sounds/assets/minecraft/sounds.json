@@ -302,7 +302,12 @@
       "tiger/liquid/water/splash4",
       "tiger/liquid/water/splash5",
       "tiger/liquid/water/splash6",
-      "tiger/liquid/water/splash7" ]
+      "tiger/liquid/water/splash7",
+      "tiger/liquid/water/splash8",
+      "tiger/liquid/water/splash9",
+      "tiger/liquid/water/splash10",
+      "tiger/liquid/water/splash11",
+      "tiger/liquid/water/splash12" ]
   },
   "entity.slime.jump_small": {
     "//": "small slime jumps",
@@ -556,4 +561,56 @@
       "tiger/mob/skeleton/hurt1",
       "tiger/mob/skeleton/hurt2",
       "tiger/mob/skeleton/hurt3" ]
+  },
+  "tiger.weather.rain": {
+    "sounds": [
+      "ambient/weather/rain1",
+      "ambient/weather/rain2",
+      "ambient/weather/rain3",
+      "ambient/weather/rain4",
+      "ambient/weather/rain5",
+      "ambient/weather/rain6",
+      "ambient/weather/rain7",
+      "ambient/weather/rain8" ]
+  },
+  "tiger.weather.rain.above": {
+    "sounds": [
+      "ambient/weather/rain1",
+      "ambient/weather/rain2",
+      "ambient/weather/rain3",
+      "ambient/weather/rain4" ]
+  },
+    "weather.rain": {
+	 "replace": true,
+     "sounds": [{
+	"name": "tiger.weather.rain",
+	"volume": 0.5,
+	"type": "event"
+			}]
+  },
+    "weather.rain.above": {
+	 "replace": true,
+     "sounds": [{
+	"name": "tiger.weather.rain.above",
+	"volume": 0.5,
+	"type": "event"
+			}]
+  },
+  "ambient.soul_sand_valley.mood": {
+    "sounds": [
+	"tiger/ambient/nether/soulsand/mood5",
+	"tiger/ambient/nether/soulsand/mood6",
+	"tiger/ambient/nether/soulsand/mood7",
+	"tiger/ambient/nether/soulsand/mood8",
+	"tiger/ambient/nether/soulsand/mood9",
+	"tiger/ambient/nether/soulsand/mood10" ]
+  },
+  "entity.drowned.shoot": {
+	"replace": true,
+    "sounds": [
+	"tiger/mob/drowned/throw/shoot1",
+	"tiger/mob/drowned/throw/shoot2",
+	"tiger/mob/drowned/throw/shoot3",
+	"tiger/mob/drowned/throw/shoot4",
+	"tiger/mob/drowned/throw/shoot5" ]
 }}
