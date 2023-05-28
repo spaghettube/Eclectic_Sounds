@@ -538,12 +538,12 @@
   },
   "ambient.cave": {
 	"sounds": [{
-		"name": "tiger/ambient/cave/cave20",
+		"name": "tiger/ambient/OW/cave/cave20",
 		"weight": 2,
 		"volume": 0.8
 		},
 		{
-		"name": "tiger/ambient/cave/cave21",
+		"name": "tiger/ambient/OW/cave/cave21",
 		"weight": 4
 		}]
   },
@@ -564,27 +564,29 @@
   },
   "tiger.weather.rain": {
     "sounds": [
-      "ambient/weather/rain1",
-      "ambient/weather/rain2",
-      "ambient/weather/rain3",
-      "ambient/weather/rain4",
-      "ambient/weather/rain5",
-      "ambient/weather/rain6",
-      "ambient/weather/rain7",
-      "ambient/weather/rain8" ]
+      "tiger/ambient/OW/rain/rain1",
+      "tiger/ambient/OW/rain/rain2",
+      "tiger/ambient/OW/rain/rain3",
+      "tiger/ambient/OW/rain/rain4",
+      "tiger/ambient/OW/rain/rain5",
+      "tiger/ambient/OW/rain/rain6",
+      "tiger/ambient/OW/rain/rain7",
+      "tiger/ambient/OW/rain/rain8",
+      "tiger/ambient/OW/rain/rain9",
+      "tiger/ambient/OW/rain/rain10",
+      "tiger/ambient/OW/rain/rain11" ]
   },
   "tiger.weather.rain.above": {
-    "sounds": [
-      "ambient/weather/rain1",
-      "ambient/weather/rain2",
-      "ambient/weather/rain3",
-      "ambient/weather/rain4" ]
+    "sounds": [{
+	"name": "tiger.weather.rain",
+	"type": "event"
+			}]
   },
     "weather.rain": {
 	 "replace": true,
      "sounds": [{
 	"name": "tiger.weather.rain",
-	"volume": 0.5,
+	"volume": 0.6,
 	"type": "event"
 			}]
   },
@@ -592,7 +594,8 @@
 	 "replace": true,
      "sounds": [{
 	"name": "tiger.weather.rain.above",
-	"volume": 0.5,
+	"volume": 1.1,
+	"pitch": 0.3,
 	"type": "event"
 			}]
   },
@@ -613,4 +616,14 @@
 	"tiger/mob/drowned/throw/shoot3",
 	"tiger/mob/drowned/throw/shoot4",
 	"tiger/mob/drowned/throw/shoot5" ]
+  },
+  "block.sculk_shrieker.shriek": {
+	"replace": true,
+    "sounds": [
+	"tiger/block/shrieker/shriek" ]
+  },
+  "block.end_gateway.spawn": {
+    "replace": true,
+    "sounds": [
+	"tiger/block/end_gateway/summon" ]
 }}

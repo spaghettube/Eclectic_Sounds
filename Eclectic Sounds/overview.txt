@@ -1,4 +1,4 @@
-Current version: R1.3_(280)
+Current version: R1.5_(340)
 "*" = what changed since the last version
 Games which have participated (or are planned to be) in the making of the pack:
 -Dying Light
@@ -15,13 +15,13 @@ Games which have participated (or are planned to be) in the making of the pack:
 -Guild Wars 2
 ____________________________________________________________________________
 
-Total sum of all sounds this pack changes: 287 + 34 = 321
-Unique sounds changed within this very update: 321
+Total sum of all sounds this pack changes: 321 + 24 = 345
+Unique sounds changed within this very update: 345
 ____________________________________________________________________________
 Minecraft:
 Ambient:
 	-cave (added a couple of water dripping sounds) (2)
-	-soulsand valley (added variants) (6)*
+	-soulsand valley (added variants) (6)
 Blocks:
 	-beacon (6)
 	-bubble_column (6) (travelling up and down)
@@ -29,7 +29,9 @@ Blocks:
 	-dripstone (11) (dripping water sound, can sound broken with the drip sounds mod, especially when raining)
 	-enchantment table (3)
 	-enderchest (2)
+	-end gateway (gateway appears) (1)*
 	-redstone torch (1) (burnout)
+	-sculk shrieker (1) (shrieker shrikin')*
 Entity:
 	-all fish ambient sounds (7)
 	-leashknot (1)
@@ -68,12 +70,12 @@ Liquids:
 		-lava ambient (1)
 		-lavapop (1)
 	-Water: (25)
-		-splash (7 -> 12)*
-		-enter water at high speed (12)*
+		-splash (12)
+		-enter water at high speed (12)
 		-exit water (1)
 Mobs:
 	-blaze (shooting sound) (1)
-	-drowned (trident throw) (5)*
+	-drowned (trident throw) (5)
 	-frog (added tongue variants) (2)
 	-ghast (10)
 	-horse (1) (saddle)
@@ -107,7 +109,9 @@ Random:
 Step:
 	-snow (1)
 Weather:
-	-rain (8) (lowered the overly noisy sound, might work on replacing it?)*
+	-Rain: (22)
+		-near block source (11)*
+		-below block source (11)*
 Other:
 	-items burning in lava (2)
 	-jumping on water (3)
