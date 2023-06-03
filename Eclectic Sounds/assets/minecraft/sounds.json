@@ -69,6 +69,12 @@
 		"volume": 1.5
 		}]
   },
+  "entity.warden.sonic_boom": {
+    "replace": true,
+    "sounds": [
+      "tiger/mob/warden/sonic_boom1", 
+      "tiger/mob/warden/sonic_boom2" ]
+  },
   "ui.stonecutter.select_recipe": {
     "replace": true,
     "sounds": [
@@ -116,6 +122,11 @@
       "tiger/block/bubble_column/whirlpool_inside1",
       "tiger/block/bubble_column/whirlpool_inside2",
       "tiger/block/bubble_column/whirlpool_inside3" ]
+  },
+  "block.bubble_column.whirlpool_ambient": {
+    "replace": true,
+    "sounds": [
+      "tiger/block/bubble_column/whirlpool_ambient" ]
   },
   "entity.player.attack.sweep": {
     "replace": true,
@@ -178,6 +189,11 @@
       "tiger/block/bubble_column/upwards_inside1",
       "tiger/block/bubble_column/upwards_inside2",
       "tiger/block/bubble_column/upwards_inside3" ]
+  },
+  "block.bubble_column.upwards_ambient": {
+    "replace": true,
+    "sounds": [
+      "tiger/block/bubble_column/upwards_ambient" ]
   },
   "entity.tropical_fish.ambient": {
     "replace": true,
@@ -307,7 +323,8 @@
       "tiger/liquid/water/splash9",
       "tiger/liquid/water/splash10",
       "tiger/liquid/water/splash11",
-      "tiger/liquid/water/splash12" ]
+      "tiger/liquid/water/splash12",
+      "tiger/liquid/water/splash13" ]
   },
   "entity.slime.jump_small": {
     "//": "small slime jumps",
@@ -323,6 +340,11 @@
       "tiger/mob/slime/big/jump1",
       "tiger/mob/slime/big/jump2" ]
   },
+  "entity.slime.death": {
+    "replace": true,
+    "sounds": [
+      "tiger/mob/slime/big/death" ]
+  },
   "entity.slime.squish": {
     "//": "non small slime lands",
     "replace": true,
@@ -336,6 +358,12 @@
     "sounds": [
       "tiger/mob/slime/small/squish1",
       "tiger/mob/slime/small/squish2" ]
+  },
+  "entity.slime.death_small": {
+    "//": "small slime lands",
+    "replace": true,
+    "sounds": [
+      "tiger/mob/slime/small/death" ]
   },
   "item.armor.equip_netherite": {
     "replace": true,
@@ -626,4 +654,83 @@
     "replace": true,
     "sounds": [
 	"tiger/block/end_gateway/summon" ]
+  },
+  "block.piston.extend": {
+    "replace": true,
+    "sounds": [{
+	"name": "tiger.block.piston.extend",
+	"pitch": 1.7,
+	"volume": 1.5,
+	"type": "event"
+			}]
+  },
+  "tiger.block.piston.extend": {
+    "replace": true,
+    "sounds": [
+	"tiger/block/piston/push/push1",
+	"tiger/block/piston/push/push2",
+	"tiger/block/piston/push/push3",
+	"tiger/block/piston/push/push4",
+	"tiger/block/piston/push/push5",
+	"tiger/block/piston/push/push6",
+	"tiger/block/piston/push/push7",
+	"tiger/block/piston/push/push8",
+	"tiger/block/piston/push/push9" ]
+  },
+  "block.piston.contract": {
+    "replace": true,
+    "sounds": [{
+	"name": "tiger.block.piston.contract",
+	"pitch": 1.7,
+	"volume": 1.5,
+	"type": "event"
+			}]
+  },
+  "tiger.block.piston.contract": {
+    "replace": true,
+    "sounds": [
+	"tiger/block/piston/pull/pull1",
+	"tiger/block/piston/pull/pull2",
+	"tiger/block/piston/pull/pull3",
+	"tiger/block/piston/pull/pull4",
+	"tiger/block/piston/pull/pull5",
+	"tiger/block/piston/pull/pull6",
+	"tiger/block/piston/pull/pull7",
+	"tiger/block/piston/pull/pull8",
+	"tiger/block/piston/pull/pull9" ]
+  },
+  "entity.bee.loop": {
+    "replace": true,
+    "sounds": [
+	"tiger/mob/bee/ambient1",
+	"tiger/mob/bee/ambient2",
+	"tiger/mob/bee/ambient3",
+	"tiger/mob/bee/ambient4",
+	"tiger/mob/bee/ambient5",
+	"tiger/mob/bee/ambient6" ]
+  },
+  "block.beacon.deactivate": {
+    "replace": true,
+    "sounds": [
+	"tiger/block/beacon/deactivate1",
+	"tiger/block/beacon/deactivate2" ]
+  },
+  "entity.polar_bear.hurt": {
+	"replace": true,
+    "sounds": [{
+	"name": "mob/polarbear/hurt1",
+	"weight": 5 },
+		{
+	"name": "mob/polarbear/hurt2",
+	"weight": 5 },
+		{
+	"name": "mob/polarbear/hurt3",
+	"weight": 5 },
+		{
+	"name": "mob/polarbear/hurt4",
+	"weight": 5 },
+		{
+	"name": "tiger/mob/polarbear/bonk",
+	"weight": 1 
+			}]
 }}
