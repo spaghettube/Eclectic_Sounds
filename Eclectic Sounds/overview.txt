@@ -15,34 +15,34 @@ Games which have participated (or are planned to be) in the making of the pack:
 -Guild Wars 2
 ____________________________________________________________________________
 
-Total sum of all sounds this pack changes: 345 + 55 = 400
-Unique sounds changed within this very update: 400
+Total sum of all sounds this pack changes: 400 + 3 = 403
+Unique sounds changed within this very update: 403
 ____________________________________________________________________________
 Minecraft:
 Ambient:
 	-cave (added a couple of water dripping sounds) (2)
 	-soulsand valley (added variants) (6)
 Blocks:
-	-beacon (6 + 1)*
+	-beacon (7)
 	-Bubble_column: (8)
 		-Upwards:
 			-hovering the column (3)
-			-column ambient (1)*
+			-column ambient (1)
 		-Downwards (AKA whirlpool):
 			-hovering the column (3)
-			-column ambient (1)*
+			-column ambient (1)
 	-dispenser/dropper (2) (dispense)
 	-dripstone (dripping water sound, can sound broken with the drip sounds mod, especially when raining) (11) 
 	-enchantment table (3)
 	-enderchest (2)
 	-end gateway (gateway appears) (1)
 	-Piston:
-		-extend (9)*
-		-contract (9)*
+		-extend (9)
+		-contract (9)
 	-redstone torch (burnout) (1)
 	-sculk shrieker (shrieker shrikin') (1)
 Entity:
-	-all fish ambient sounds (forgot to count by sound event) (7 + 21)*
+	-all fish ambient sounds (forgot to count by sound event) (28)
 	-leashknot (1)
 	-lightning bolt (impact + sharply lowered the thunder sound) (2)
 	-Player: (17)
@@ -70,7 +70,7 @@ Items:
 	-Bucket: (3)
 		-fill
 			-lava (3)
-	-shield (3)
+	-shield (tweaked the block sound) (3 - 1)*
 	-totem (1)
 	-Trident: (3)
 		-riptide (3)
@@ -79,25 +79,25 @@ Liquids:
 		-lava ambient (1)
 		-lavapop (1)
 	-Water: (25)
-		-splash (12 + 1)*
-		-enter water at high speed (12 + 1)*
+		-splash (13)
+		-enter water at high speed (13)
 		-exit water (1)
 Mobs:
-	-bee (ambient sounds) (6)*
+	-bee (ambient sounds) (6)
 	-blaze (shooting sound) (1)
 	-drowned (trident throw) (5)
 	-frog (added tongue variants) (2)
 	-ghast (10)
 	-horse (saddle) (1)
 	-iron_golem (9)
-	-polar bear (1 in 21 chance of playing a new sound) (1)*
+	-polar bear (1 in 21 chance of playing a new sound) (1)
 	-Skeleton
 		-death (4)
 		-hurt (3)
-	-slime (attack, jump, squish and death) (10 + 2)*
+	-slime (attack, jump, squish and death) (12)
 	-strider (1) (saddle)
 	-turtle (egg hatched) (3)
-	-warden (14 + 2)*
+	-warden (16)
 Portal:
 	-travel (2)
 Random:
@@ -118,6 +118,7 @@ Random:
 	-pop (1) (pick up)
 	-splash (fishing bobber announces fish) (3) 
 Step:
+	-slime (3)*
 	-snow (1)
 Weather:
 	-Rain: (22)
@@ -189,7 +190,7 @@ Presence Footsteps:
 To be worked on: nothing on my mind yet
 ____________________________________________________________________________
 Fabrication:
-	-bubble pop from the bubble column (needs to be enabled on the fabrication config) (4)
+	-bubble pop from the bubble column (needs to be enabled on the fabrication config) (4 + 1)*
 
 To be worked on: MAYBE absorption hurt
 ____________________________________________________________________________
@@ -203,6 +204,9 @@ Items:
 	-use spawn egg (3)
 
 To be worked on: shield blocking; tool swing sounds
+____________________________________________________________________________
+Make Bubbles Pop/ Pop! (not duplicated with Fabrication's): 
+	-bubble popping (4 + 1)*
 ____________________________________________________________________________
 Droplight (not yet):
 

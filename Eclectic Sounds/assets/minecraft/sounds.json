@@ -226,8 +226,7 @@
   "item.shield.block": {
     "replace": true,
     "sounds": [
-      "tiger/item/shield/block1",
-      "tiger/item/shield/block2" ]
+      "tiger/item/shield/block" ]
   },
   "item.shield.break": {
     "replace": true,
@@ -240,10 +239,11 @@
 		"block/bubble_column/bubble1",
 		"block/bubble_column/bubble2",
 		"block/bubble_column/bubble3",
-		"tiger/block/bubble_column/bubble4",
-		"tiger/block/bubble_column/bubble5",
-		"tiger/block/bubble_column/bubble6",
-		"tiger/block/bubble_column/bubble7" ]
+		"tiger/block/bubble/bubble4",
+		"tiger/block/bubble/bubble5",
+		"tiger/block/bubble/bubble6",
+		"tiger/block/bubble/bubble7",
+		"tiger/block/bubble/bubble8" ]
   },
   "block.bubble_column.bubble_pop": {
     "replace": true,
@@ -566,22 +566,22 @@
   },
   "ambient.cave": {
 	"sounds": [{
-		"name": "tiger/ambient/OW/cave/cave20",
+		"name": "tiger/ambient/ow/cave/cave20",
 		"weight": 2,
 		"volume": 0.8
 		},
 		{
-		"name": "tiger/ambient/OW/cave/cave21",
+		"name": "tiger/ambient/ow/cave/cave21",
 		"weight": 4
 		}]
   },
     "entity.skeleton.death": {
-	 "replace": true,
+     "replace": true,
      "sounds": [
-      "tiger/mob/skeleton/death1",
-	  "tiger/mob/skeleton/death2",
-	  "tiger/mob/skeleton/death3",
-	  "tiger/mob/skeleton/death4" ]
+	"tiger/mob/skeleton/death1",
+	"tiger/mob/skeleton/death2",
+	"tiger/mob/skeleton/death3",
+	"tiger/mob/skeleton/death4" ]
   },
   "entity.skeleton.hurt": {
 	"replace": true,
@@ -592,17 +592,17 @@
   },
   "tiger.weather.rain": {
     "sounds": [
-      "tiger/ambient/OW/rain/rain1",
-      "tiger/ambient/OW/rain/rain2",
-      "tiger/ambient/OW/rain/rain3",
-      "tiger/ambient/OW/rain/rain4",
-      "tiger/ambient/OW/rain/rain5",
-      "tiger/ambient/OW/rain/rain6",
-      "tiger/ambient/OW/rain/rain7",
-      "tiger/ambient/OW/rain/rain8",
-      "tiger/ambient/OW/rain/rain9",
-      "tiger/ambient/OW/rain/rain10",
-      "tiger/ambient/OW/rain/rain11" ]
+      "tiger/ambient/ow/rain/rain1",
+      "tiger/ambient/ow/rain/rain2",
+      "tiger/ambient/ow/rain/rain3",
+      "tiger/ambient/ow/rain/rain4",
+      "tiger/ambient/ow/rain/rain5",
+      "tiger/ambient/ow/rain/rain6",
+      "tiger/ambient/ow/rain/rain7",
+      "tiger/ambient/ow/rain/rain8",
+      "tiger/ambient/ow/rain/rain9",
+      "tiger/ambient/ow/rain/rain10",
+      "tiger/ambient/ow/rain/rain11" ]
   },
   "tiger.weather.rain.above": {
     "sounds": [{
@@ -732,5 +732,26 @@
 		{
 	"name": "tiger/mob/polarbear/bonk",
 	"weight": 1 
+			}]
+  },
+  "block.slime_block.step": {
+    "replace": true,
+    "sounds": [
+      "tiger/block/slime/step1",
+      "tiger/block/slime/step2",
+      "tiger/block/slime/step3" ]
+  },
+  "block.portal.trigger": {
+    "replace": true,
+    "sounds": [{
+	"name": "portal/trigger",
+	"volume": 2.9
+			}]
+  },
+  "block.portal.ambient": {
+    "replace": true,
+    "sounds": [{
+	"name": "portal/portal",
+	"volume": 0.5
 			}]
 }}

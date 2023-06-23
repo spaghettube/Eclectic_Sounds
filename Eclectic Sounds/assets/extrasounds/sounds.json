@@ -476,7 +476,7 @@
     "sounds": [
 	"extrasounds:tiger/effect/rem_neg" ]
   },
-  "keyboard.type": {
+  "extrasounds:keyboard.type": {
     "replace": true,
     "sounds": [
 	"extrasounds:tiger/other/voice_sans" ]
