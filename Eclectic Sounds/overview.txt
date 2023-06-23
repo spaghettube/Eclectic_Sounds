@@ -1,4 +1,4 @@
-Current version: R1.7_(400)
+Current version: R1.8_(400)
 "*" = what changed since the last version
 Games which have participated (or are planned to be) in the making of the pack:
 -Dying Light
@@ -15,7 +15,7 @@ Games which have participated (or are planned to be) in the making of the pack:
 -Guild Wars 2
 ____________________________________________________________________________
 
-Total sum of all sounds this pack changes: 400 + 3 = 403
+Total sum of all sounds this pack changes: 403 + 0 = 403
 Unique sounds changed within this very update: 403
 ____________________________________________________________________________
 Minecraft:
@@ -70,7 +70,7 @@ Items:
 	-Bucket: (3)
 		-fill
 			-lava (3)
-	-shield (tweaked the block sound) (3 - 1)*
+	-shield (tweaked the block sound) (2)
 	-totem (1)
 	-Trident: (3)
 		-riptide (3)
@@ -118,7 +118,7 @@ Random:
 	-pop (1) (pick up)
 	-splash (fishing bobber announces fish) (3) 
 Step:
-	-slime (3)*
+	-slime (3)
 	-snow (1)
 Weather:
 	-Rain: (22)
@@ -170,7 +170,7 @@ Others:
 	-chat.message (1)
 	-hotbar_scroll (1)
 	-item.drop (1)
-	-keyboard.type (1) (needs to be enabled in sounds - extrasounds (the gear to the right) - keyboard volume)
+	-keyboard.type (1) (needs to be enabled in sounds - extrasounds (the gear to the right) - keyboard volume) (fixed)*
 
 To be worked on: variations of item.category.metal, keyboard variations
 ____________________________________________________________________________
@@ -190,7 +190,7 @@ Presence Footsteps:
 To be worked on: nothing on my mind yet
 ____________________________________________________________________________
 Fabrication:
-	-bubble pop from the bubble column (needs to be enabled on the fabrication config) (4 + 1)*
+	-bubble pop from the bubble column (needs to be enabled on the fabrication config) (5)
 
 To be worked on: MAYBE absorption hurt
 ____________________________________________________________________________
@@ -206,7 +206,7 @@ Items:
 To be worked on: shield blocking; tool swing sounds
 ____________________________________________________________________________
 Make Bubbles Pop/ Pop! (not duplicated with Fabrication's): 
-	-bubble popping (4 + 1)*
+	-bubble popping (5)
 ____________________________________________________________________________
 Droplight (not yet):
 
