@@ -1,4 +1,4 @@
-Current version: R1.6_(400)
+Current version: R1.7_(400)
 "*" = what changed since the last version
 Games which have participated (or are planned to be) in the making of the pack:
 -Dying Light
