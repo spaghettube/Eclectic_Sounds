@@ -1,4 +1,4 @@
-Current version: R1.8_(400)
+Current version: R1.9_(410)
 "*" = what changed since the last version
 Games which have participated (or are planned to be) in the making of the pack:
 -Dying Light
@@ -13,10 +13,11 @@ Games which have participated (or are planned to be) in the making of the pack:
 -Banana Kong
 -Fnaf Game Series
 -Guild Wars 2
+-SCP: Containment Breach
 ____________________________________________________________________________
 
-Total sum of all sounds this pack changes: 403 + 0 = 403
-Unique sounds changed within this very update: 403
+Total sum of all sounds this pack changes: 403 + 11 = 414
+Unique sounds changed within this very update: 414
 ____________________________________________________________________________
 Minecraft:
 Ambient:
@@ -170,7 +171,7 @@ Others:
 	-chat.message (1)
 	-hotbar_scroll (1)
 	-item.drop (1)
-	-keyboard.type (1) (needs to be enabled in sounds - extrasounds (the gear to the right) - keyboard volume) (fixed)*
+	-keyboard.type (1) (needs to be enabled in sounds - extrasounds (the gear to the right) - keyboard volume) (fixed)
 
 To be worked on: variations of item.category.metal, keyboard variations
 ____________________________________________________________________________
@@ -208,6 +209,12 @@ ____________________________________________________________________________
 Make Bubbles Pop/ Pop! (not duplicated with Fabrication's): 
 	-bubble popping (5)
 ____________________________________________________________________________
+Immersive Thunder (range):
+close (tweaks) (3)*
+medium (tweaks) (4)*
+far (tweaks and added a variant) (4)*
+____________________________________________________________________________
+
 Droplight (not yet):
 
 To be worked on: --
