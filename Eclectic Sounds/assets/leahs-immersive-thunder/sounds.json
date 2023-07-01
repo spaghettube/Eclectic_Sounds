@@ -1,0 +1,28 @@
+{
+  "thunder_close": {
+    "replace": true,
+    "sounds": [
+      {"name":"leahs-immersive-thunder:thunder_close_1", "pitch":5, "volume": 0.7},
+      {"name":"leahs-immersive-thunder:thunder_close_2", "pitch":2.2, "volume": 0.7},
+      {"name":"leahs-immersive-thunder:thunder_close_3", "pitch":5, "volume": 0.7}
+    ]
+  },
+  "thunder_medium": {
+    "replace": true,
+    "sounds": [
+      {"name":"leahs-immersive-thunder:thunder_medium_1", "pitch":2, "volume": 0.7},
+      {"name":"leahs-immersive-thunder:thunder_medium_2", "pitch":3, "volume": 0.7},
+      {"name":"leahs-immersive-thunder:thunder_medium_3", "pitch":3.3, "volume": 0.7},
+      {"name":"leahs-immersive-thunder:thunder_medium_4", "pitch":1.5, "volume": 0.7}
+    ]
+  },
+  "thunder_far": {
+    "replace": true,
+    "sounds": [
+      {"name":"leahs-immersive-thunder:thunder_far_1", "pitch": 4, "volume": 0.7},
+      {"name":"leahs-immersive-thunder:thunder_far_2", "pitch": 2.5, "volume": 0.7},
+      {"name":"leahs-immersive-thunder:thunder_far_3", "pitch": 2, "volume": 0.7},
+      "leahs-immersive-thunder:tiger_thunder_far_4"
+    ]
+  }
+}
