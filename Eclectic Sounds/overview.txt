@@ -1,4 +1,4 @@
-Current version: R1.9_(410)
+Current version: R1.10_(420)
 "*" = what changed since the last version
 Games which have participated (or are planned to be) in the making of the pack:
 -Dying Light
@@ -16,12 +16,12 @@ Games which have participated (or are planned to be) in the making of the pack:
 -SCP: Containment Breach
 ____________________________________________________________________________
 
-Total sum of all sounds this pack changes: 403 + 11 = 414
-Unique sounds changed within this very update: 414
+Total sum of all sounds this pack changes: 414 + 12 = 426
+Unique sounds changed within this very update: 426
 ____________________________________________________________________________
 Minecraft:
 Ambient:
-	-cave (added a couple of water dripping sounds) (2)
+	-cave (2 + 3)*
 	-soulsand valley (added variants) (6)
 Blocks:
 	-beacon (7)
@@ -87,7 +87,7 @@ Mobs:
 	-bee (ambient sounds) (6)
 	-blaze (shooting sound) (1)
 	-drowned (trident throw) (5)
-	-frog (added tongue variants) (2)
+	-frog (added tongue and ambient variants) (2 + (8 - 3 + 4)*)
 	-ghast (10)
 	-horse (saddle) (1)
 	-iron_golem (9)
@@ -210,9 +210,9 @@ Make Bubbles Pop/ Pop! (not duplicated with Fabrication's):
 	-bubble popping (5)
 ____________________________________________________________________________
 Immersive Thunder (range):
-close (tweaks) (3)*
-medium (tweaks) (4)*
-far (tweaks and added a variant) (4)*
+close (tweaks) (3)
+medium (tweaks) (4)
+far (tweaks and added a variant) (4)
 ____________________________________________________________________________
 
 Droplight (not yet):

@@ -572,7 +572,19 @@
 		},
 		{
 		"name": "tiger/ambient/ow/cave/cave21",
-		"weight": 4
+		"weight": 3
+		},
+		{
+		"name": "tiger/ambient/ow/cave/cave22",
+		"volume": 2.5
+		},
+		{
+		"name": "tiger/ambient/ow/cave/cave23",
+		"volume": 2.5
+		},
+		{
+		"name": "tiger/ambient/ow/cave/cave24",
+		"volume": 2.5
 		}]
   },
     "entity.skeleton.death": {
@@ -754,4 +766,17 @@
 	"name": "portal/portal",
 	"volume": 0.5
 			}]
+  },
+  "entity.frog.ambient": {
+    "replace": true,
+    "sounds": [
+      "mob/frog/idle1",
+      "mob/frog/idle2",
+      "mob/frog/idle3",
+      "mob/frog/idle4",
+      "mob/frog/idle8",
+      "tiger/mob/frog/idle9",
+      "tiger/mob/frog/idle10",
+      "tiger/mob/frog/idle11",
+      "tiger/mob/frog/idle12" ]
 }}
