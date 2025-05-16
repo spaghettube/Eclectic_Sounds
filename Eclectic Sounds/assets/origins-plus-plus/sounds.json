@@ -1,0 +1,12 @@
+{
+  "deathsworn.arise": {
+    "sounds": [
+	"origins-plus-plus:deathsworn/arise"
+    		]
+	},
+  "deathsworn.rest": {
+    "sounds": [
+	"origins-plus-plus:deathsworn/rest"
+    		]
+	}
+}

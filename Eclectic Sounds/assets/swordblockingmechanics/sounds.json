@@ -1,0 +1,10 @@
+{
+  "item.sword.block": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:item.shield.block",
+	"type": event }
+		]
+	}
+}
